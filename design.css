@@ -1,0 +1,43 @@
+
+h1 {
+    font-size: 64px;
+}
+
+.color-red {
+    background-color: #E6563B;
+}
+
+.color-orange {
+    background: #DEA03D;
+}
+
+.color-green {
+    background-color: #7CB06C;
+}
+
+.color-blue {
+    background-color: #00ABA9;
+}
+
+.circle {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    border: solid white 5px;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.abel {
+    font-family: 'Abel', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 5;
+    align-content: stretch;
+}
