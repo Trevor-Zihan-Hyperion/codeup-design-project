@@ -1,4 +1,6 @@
-
+body{
+    background:#F0F0F0;
+}
 h1 {
     font-size: 64px;
 }
@@ -40,4 +42,27 @@ h1 {
     align-items: center;
     flex-grow: 5;
     align-content: stretch;
+
+
+}
+.selected {
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-top:5em;
+}
+.foutdot{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: solid white 1px;
+
+}
+.dot-container{
+    display: flex;
+    justify-content: space-around;
+    /*align-items:center;*/
+    align-content: stretch;
+    position:relative;
+    float:right;
+
 }
