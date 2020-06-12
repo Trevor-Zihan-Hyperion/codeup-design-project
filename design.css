@@ -1,10 +1,16 @@
-body{
-    background:#F0F0F0;
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+body {
+    background-color: #F0F0F0;
 }
+
 h1 {
     font-size: 64px;
 }
 
+.jumbotron {
+    background-color: #f0f0f0;
+}
 .color-red {
     background-color: #E6563B;
 }
@@ -42,27 +48,55 @@ h1 {
     align-items: center;
     flex-grow: 5;
     align-content: stretch;
-
-
 }
+
 .selected {
     text-align: center;
     font-family: 'Abel', sans-serif;
-    margin-top:5em;
+    margin-top: 5em;
 }
-.foutdot{
+
+.four-dot {
     width: 18px;
     height: 18px;
     border-radius: 50%;
     border: solid white 1px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
 }
-.dot-container{
+
+.dot-container {
     display: flex;
     justify-content: space-around;
-    /*align-items:center;*/
     align-content: stretch;
-    position:relative;
-    float:right;
+    position: relative;
+    float: right;
+}
+.card {
+    border: none;
+}
+.card-img-top {
+    border: #e6e6e6 solid 5px;
+}
 
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.card-text {
+    display: flex;
+    position: relative;
+    float: left;
+}
+
+
+@media screen and (max-width:768px){
+    div.alert-info.hidden-on-desktop{
+        display: none;
+    }
 }
