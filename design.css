@@ -8,9 +8,11 @@ h1 {
     font-size: 64px;
 }
 
-.jumbotron {
-    background-color: #f0f0f0;
+.logo {
+    width: 105px;
+    height: 105px;
 }
+
 .color-red {
     background-color: #E6563B;
 }
