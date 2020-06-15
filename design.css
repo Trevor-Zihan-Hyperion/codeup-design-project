@@ -79,6 +79,7 @@ h1 {
 }
 .card {
     border: none;
+    background-color: #f0f0f0;
 }
 .card-img-top {
     border: #e6e6e6 solid 5px;
